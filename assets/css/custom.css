@@ -1,0 +1,396 @@
+
+
+.slick-dots {
+	text-align: left;
+}
+
+.slick-slide {
+	text-overflow: ellipsis;
+ 	overflow: hidden;
+}
+.img-fullwidth {
+    width: 100%;
+}
+
+.nopadding {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+
+
+.logopanel {
+  background: #ffffff !important;
+}
+
+#logotype {
+	font-size: 45px;
+	margin-top: 28px; 
+	margin-left: 28px;
+	line-height: 45px; 
+	float: left;
+}
+
+
+#logotype span {
+	display: inline-block; 
+	font-size: 20px;
+	color: #a4a2a1;
+}
+
+.topbar .header-right .header-menu #language-header .dropdown-menu li a span {
+  padding-left: 24px;
+}
+
+.topbar .header-right .header-menu #language-header .dropdown-menu li a i {
+	color: #a4a2a1;
+}
+
+
+@media (max-width: 992px) {
+
+	#logotype {
+		margin-top: 15px; 
+		margin-left: 50px;
+		line-height: 20px; 
+		font-size: 20px;
+		height: 20px;
+		position: absolute;
+		overflow: hidden;
+		text-overflow: ellipsis;
+	}
+	
+}
+
+.col-sm-6 {
+	word-wrap: break-word;
+}
+
+
+/*
+.bg-clean, .bg-clean > section, .bg-clean .main-content, .bg-clean .main-content .page-content, .bg-clean .sidebar-mailbox.sidebar .sidebar-inner .nav-sidebar > li.active > a, .bg-clean .sidebar-mailbox.sidebar .nav-sidebar > li.active > a:hover, .bg-clean .sidebar-mailbox.sidebar .nav-sidebar > li.active > a:focus {
+	background: #ffffff;
+}
+*/
+
+
+
+body, 
+body p strong, 
+textarea, 
+h1,
+h2,
+h3,
+h4,
+h5,
+h1.light,
+h2.light,
+h3.light,
+h4.light,
+h5.light,
+strong,
+.context-menu .dropdown-menu .dropdown-title,
+.topbar .header-left .topnav .mmenu .title,
+.topbar .header-left .topnav .mmenu .title strong,
+.topbar .header-right .header-menu .dropdown-menu .dropdown-header,
+.topbar .header-right .header-menu .dropdown-menu .dropdown-header p,
+.topbar .header-right .header-menu .dropdown-menu .dropdown-footer,
+.sidebar .badge,
+.sidebar .logopanel h1,
+.sidebar .sidebar-inner .nav-sidebar .children > li > a,
+.sidebar .sidebar-inner .nav-sidebar > li > a,
+.sidebar .sidebar-inner .sidebar-widgets a,
+sidebar .sidebar-inner .sidebar-widgets .charts-sidebar .sidebar-charts-inner .sidebar-charts-left .sidebar-chart-number,
+.sidebar .sidebar-inner .sidebar-widgets .charts-sidebar.progress-chart .sidebar-chart-title,
+.progress-chart .sidebar-chart-number,
+.sidebar-hover .topnav .logopanel2 h1,
+#quickview-sidebar .quickview .tab-content #chat .chat-body .chat-groups i,
+#quickview-sidebar .quickview .tab-content #chat .chat-body .chat-groups .title,
+quickview-sidebar .quickview .tab-content .title,
+#quickview-sidebar .quickview .tab-content #settings .settings-chart .chart-title,
+#quickview-sidebar .quickview .tab-content #notes .list-notes .notes #add-note,
+#quickview-sidebar .quickview .tab-content #notes .detail-note #note-detail .note-write textarea,
+#quickview-sidebar .quickview-header,
+#quickview-sidebar .quickview-header .nav > li > a,
+.main-content .page-content h3,
+.main-content .page-content .panel .panel-content h1,
+.main-content .page-content .panel .panel-header h2,
+.main-content .page-content .panel .panel-header h3,
+.main-content .page-content .panel .panel-title,
+.main-content .page-content .panel-content h3,
+.main-content .page-content .breadcrumb li,
+.main-content .page-content > .header h2,
+main-content .page-content > .footer .copyright span.copyright,
+.todo-list li .todo-tags,
+idget-weather .weather .weather-location strong,
+.widget-slider-img .slide p,
+.widget-progress-bar .title,
+.widget-progress-bar .number,
+.widget-small .title span,
+.widget-infobox .right .pull-left,
+.widget-infobox .right .pull-right,
+.widget-info .right .number,
+.animation_title,
+.error-page h1,
+.account #lockscreen-block h2,
+.account2 .form-password h3,
+.account2 .form-signin h3,
+.account2 .form-signin h3 strong,
+.account2 .form-signup h3,
+.account2 .form-signup h3 strong,
+.account-copyright,
+#account-builder h3,
+.account2 .account-info .logo,
+.account2 .account-info h3,
+.layouts .toggle-layout > div,
+.layouts .toggle-layout > div strong,
+.page-contact h3,
+.form-wizard-style a,
+.form-wizard-style span,
+.form-wizard-nav a,
+.form-wizard-nav span,
+.page-profil .profil-header .name,
+.page-profil .profil-header .more-friends p,
+.page-profil .profil-header .profil-info,
+.page-profil .profil-header .moments .num-moments,
+.page-profil .profil-content .item .user .name,
+.page-profil .profil-content .item .user .location,
+.page-profil .profil-content .item .comment,
+.page-profil .profil-content .item .more .comments .info .date,
+.page-profil .profil-content .item .more .comments p,
+.page-profil .profil-content .item.item-comment .user .name,
+.item .user .date,
+/*  todo from line 7906*/
+.input-group-btn:last-child > .btn,
+.sidebar .sidebar-inner .sidebar-widgets .charts-sidebar .sidebar-charts-inner .sidebar-charts-left .sidebar-chart-number
+{
+    font-family: 'Helvetica Neue', Helvetica, Arial, 'Open Sans', sans-serif !important;
+}
+body p strong {
+    font-family:  'Helvetica Neue', Helvetica, Arial, 'Open Sans', sans-serif;
+}
+
+h1 {
+	font-size: 25px;
+}
+
+h1, h2, h3  {
+    font-family:  HelveticaNeueLT-BlackCond, 'HelveticaNeue-CondensedBlack', 'Arial Narrow', Helvetica, Arial, 'Open Sans', sans-serif !important;
+	font-weight: normal;
+	font-style: normal; 
+}
+h1 {
+	color: #333333;
+}
+h2, h3  {
+	color: #a4a2a1 !important;
+}
+
+.main-content .page-content .panel .panel-header h3 {
+	color: #333333;
+}
+
+.main-content .page-content .row .col-sm-9 {
+	min-height: 550px;
+}
+
+.sidebar-light:not(.sidebar-collapsed) .sidebar {
+  background: none !important;
+  width: 280px;
+}
+
+.page-content ul {
+	margin:				0px 0px 0px 19px;
+	padding:			0px;
+	list-style-type:	square;
+}
+
+.page-content li {
+	margin-bottom:		7px;
+	list-style-image:	url(../images/custom/checklist.jpg);
+}
+
+.main-content .page-content .page_content img {
+    width: 100%;
+  	display: block;
+  	height: auto;
+  	margin-top: 10px;
+  	margin-bottom: 30px;
+  }
+
+@media print {
+	.main-content .page-content .page_content img {
+    	width: auto;
+	}
+}
+
+.antwort {
+	padding:			5px;
+}
+
+
+.footnotes li {
+	margin-bottom:		7px;
+	list-style-image:	none;
+	list-style-type:	decimal;
+	font-size:			0.8em;
+	color:				#969696;
+}
+
+
+.sidebar .sidebar-inner  ul i {
+	color: #a4a2a1;
+	float: left;
+	padding-top: 6px;
+}
+
+.sidebar .sidebar-inner .sidebar-widgets ul a, .sidebar .sidebar-inner .nav-sidebar > li > a {
+	white-space: normal;
+}
+
+
+.sidebar-light:not(.sidebar-collapsed) .sidebar .sidebar-inner .nav-sidebar > li > a {
+	padding-left: 20px;
+}
+
+.sidebar .sidebar-inner .nav-sidebar > li > a > div {
+	display: inline-block;
+	width: 175px;
+}
+
+.sidebar .logopanel {
+	width: 280px;
+}
+
+@media screen and (max-width: 1024px)
+.sidebar-show .main-content {
+  margin-left: 280px !important;
+  overflow: hidden;
+}
+
+
+@media (min-width: 992px) {
+
+	.sidebar {
+	  top: 100px;
+	}
+
+	.fixed-topbar .topbar {
+	  position: fixed;
+	  top: 0;
+	  right: 0;
+	  left: 0;
+	  z-index: 801;
+	  z-index: 300;
+	  -webkit-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+	  -moz-box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+	  box-shadow: 0 3px 3px rgba(0, 0, 0, 0.05);
+	}
+	
+	
+	.topbar  {
+	  height: 100px;
+	}
+	
+	.dropdown {
+		margin-top: 34px;
+	}
+	
+	.main-content .page-content  {
+	  margin-top: 100px;
+	}
+}
+
+
+@media print {
+
+	body {
+  		font-size: 9px;
+	}
+	
+	p, li {
+  		line-height: 11px;
+		
+	}
+	
+	h1 {
+		font-size: 15px;
+	}
+	
+	h2 {
+		font-size: 15px;
+	}
+	
+	.main-content .page-content .page_content img {
+		margin-bottom: 10px;
+	}
+	
+	.main-content .page-content > .footer {
+		margin-top: 0px;
+	}
+	
+	.main-content .page-content > .footer .copyright {
+		border-top: none; 
+		padding-top: 0;
+	}
+	
+	.topbar {
+	  	display: block !important;
+
+	}
+	
+	.fixed-topbar .topbar {
+	  	position: absolute;
+
+	}
+	
+	.hidden-xs {
+		display: block !important;
+	}
+	
+	.main-content .page-content .panel .panel-header {
+		padding: 0;
+	}
+	
+	.topbar .header-right {
+		display: none;
+	}
+	
+	#logotype {
+		font-size: 37px;
+		line-height: 37px;
+		height: 42px;
+	}
+	
+	.fixed-topbar .topbar {
+		left: 0;
+	}
+	
+	a[href]:after {
+  		content: none;
+	}
+	
+	.col-sm-6 {
+  		width: 50%;
+  		float: left;
+	}
+	
+	.pageurl {
+		font-family: HelveticaNeueLT-BlackCond, 'HelveticaNeue-CondensedBlack', 'Arial Narrow', Helvetica, Arial, 'Open Sans', sans-serif !important;
+  		font-weight: normal;
+  		font-style: normal;
+  		font-size: 15px;
+  		float: left;
+  		margin-right: 20px;
+  		margin-top: 12px;
+  		color: #a4a2a1 !important;
+  		
+	}
+	
+	.panel {
+		page-break-inside: avoid;
+	}
+	
+}
+
+
